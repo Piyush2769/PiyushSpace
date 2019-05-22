@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "769771171617",
+    "firebase_url": "https://piyush-space.firebaseio.com",
+    "project_id": "piyush-space",
+    "storage_bucket": "piyush-space.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769771171617:android:c525f1b400685087",
+        "android_client_info": {
+          "package_name": "com.example.piyush.piyushspace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769771171617-46fnghbbd2rv5nv80vsbc7dj1h2kkjv2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.piyush.piyushspace",
+            "certificate_hash": "3f99b9a90c96a5bb1b56d60edfa07a91c2c43c2a"
+          }
+        },
+        {
+          "client_id": "769771171617-tk1uv3ide92pqdfq62vl8ffkjublee9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_kiPg0pTdDu5oRS4aAYtD10jBjt8CEMI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769771171617-tk1uv3ide92pqdfq62vl8ffkjublee9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

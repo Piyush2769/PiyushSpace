@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmFinalOrderActivity">
+
+    <TextView
+        android:id="@+id/txt"
+        android:text="Please Enter your Shipment Details"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:layout_margin="25dp"
+        android:textStyle="bold|italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/final_phone_number"
+        android:layout_width="match_parent"
+        android:layout_below="@id/txt"
+        android:layout_margin="20dp"
+        android:hint=" Phone Number.."
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:background="@drawable/input_design"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/final_full_name"
+        android:layout_width="match_parent"
+        android:layout_below="@id/final_phone_number"
+        android:layout_margin="20dp"
+        android:hint=" Full Name .."
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:background="@drawable/input_design"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/final_address"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_below="@id/final_full_name"
+        android:layout_margin="20dp"
+        android:hint=" Address .."
+        android:textSize="20sp"
+        android:background="@drawable/input_design"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/final_city"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_below="@id/final_address"
+        android:layout_margin="20dp"
+        android:hint=" City .."
+        android:textSize="20sp"
+        android:background="@drawable/input_design"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/confirm_final_order_btn"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/buttons"
+        android:layout_margin="10dp"
+        android:text="Confirm"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

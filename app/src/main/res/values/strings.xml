@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Piyush Space</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="slide_1_title"> Bus Tickets</string>
+    <string name="slide_1_desc"> Explore in bus ticketing!</string>
+
+    <!-- Slide 2 Title and Description-->
+    <string name="slide_2_title">Flight Tickets</string>
+    <string name="slide_2_desc"> Explore in Flights ticketing!</string>
+
+    <!-- Slide 3 Title and Description-->
+    <string name="slide_3_title">Train Tickets</string>
+    <string name="slide_3_desc"> Explore in Train ticketing!</string>
+
+    <string name="my_preference">"com.abc.com.MyPref"</string>
+    <string name="my_preference_key">"com.abc.com.MyPrefKey"</string>
+</resources>
